@@ -2,13 +2,21 @@ What happens when you initialize a repository? Why do you need to do it?
 	You start a place to save commits, track versions, etc. 
 	So Git knows which folders and files are subject to versioning
 How is the staging area different from the working directory and the repository?
+	The working directory is where you are in the GitBash application at any given time.
+	You could be looking at a repository, or a folder within a repo, or a folder of multiple repos.
+	The staging area is what files from a given repo are about to be committed and versioned. Perhaps, the whole repo!
 What value do you think it offers?
-
+	Staging area allows you to double check your work (is this the file I meant to commit?) 
+	
 How can you use the staging area to make sure you have one commit per logical
 change?
-
+	You can always send something to the staging area before starting the next thing. 
+	If it turns out to bte the same, overwrite the staging area. If different, you can go and commit the staging version first.
+	
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	Piloting an entirely new design for parts of the website with same data
+	
 
 How do the diagrams help you visualize the branch structure?
 
