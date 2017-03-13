@@ -19,9 +19,13 @@ organized? How would branches help?
 	
 
 How do the diagrams help you visualize the branch structure?
-
+	The tree is helpful - shows the linear nature, even when multiple, ongoing side projects/updates
+	
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	Merging two branches will add new lines (from branch) to master, keep all identical lines. 
+	Also adds the history of the two merges into a single history (git log)
+	Diagram helps to visualize the history, and see what changes might have been missed in branch
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
